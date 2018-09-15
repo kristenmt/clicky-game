@@ -1,0 +1,10 @@
+.card {
+    background: red;
+    height: 300px;
+    width: 350px;
+}
+.card > .img-container {
+    height: 60%;
+    overflow: hidden;
+    background: blue;
+}
