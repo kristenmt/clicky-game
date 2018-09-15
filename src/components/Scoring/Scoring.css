@@ -1,0 +1,21 @@
+.scoretitle {
+    background-size: 100%;
+    width: 100%;
+    /* text-align: center; */
+    /* vertical-align: center; */
+    background-color: rgba(240, 240, 48, 0.242);
+    color: black;
+    
+}
+.scorelist {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+li {
+    list-style: none;
+    float: left;
+}
+li:last-child {
+    padding-left: 20px;
+}
