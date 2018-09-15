@@ -8,3 +8,8 @@
     overflow: hidden;
     background: blue;
 }
+.card > .img-container img {
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+}

@@ -3,18 +3,30 @@ import './App.css';
 import puppies from "./puppies.json";
 import PuppyCard from "./components/PuppyCard";
 import Wrapper from "./components/Wrapper";
-
+import Title from "./components/Title"
 
 class App extends Component {
-  state = puppies
+  state = {
+    message: "Click on a picture to start the game!",
+    puppies: puppies,
+    unselectedPuppies: puppies
 };
-  
 
-render();
-  return (
+// add scoring later
+  
+componentDidMount() {
+}
+// shuffle through puppy cards
+
+// select the puppies
+
+// render the images and cards
+render() {
+    return (
     <Wrapper>
+      <Title />
     {
-      this.state.puppies.map(puppies => (
+      this.state.puppies.map(puppy => (
         <PuppyCard
         breed={puppies.breed}
       key={puppies.breed}
@@ -24,7 +36,7 @@ render();
     }
     </Wrapper>
   );
-
-
+}
+}
 
 export default App;

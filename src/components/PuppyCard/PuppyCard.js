@@ -1,19 +1,22 @@
 import React from "react";
-import PuppyBox from "../PuppyBox";
+//import PuppyBox from "../PuppyBox";
 import "./PuppyCard.css";
 
 const PuppyCard = (props) => (
-    
+    <div className="card">
         <div className="img-container">
-            {props.list.map((item,i) => {
+        {/* need to add onclick for scoring */}
+            {/* {props.list.map((item,i) => {
                 return (
                     <PuppyBox
                         key={item.breed}
                         image={item.image}
                         />
                 )
-            })}
+            })} */}
+
+            <img alt={props.breed} src={props.image} />
         </div>
-    
+        </div>
 )
 export default PuppyCard;
