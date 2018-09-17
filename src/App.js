@@ -11,6 +11,7 @@ class App extends Component {
     curScore: 0,
     topScore: 0,
     puppies: puppies,
+    clicked: [],
     unselectedPuppies: puppies
 };
 
@@ -26,8 +27,8 @@ shuffleArray = array => {
   }
 }
 // select the puppies
-selectPuppy = breed => {
-  const getPuppy = this.state.unselectedPuppies.find(item => item.breed === breed);
+selectPuppy = id => {
+  const getPuppy = this.state.unselectedPuppies.find(item => item.id === id);
 
   if (getPuppy === undefined) {
     this.setState({
@@ -39,7 +40,7 @@ selectPuppy = breed => {
     });
   }
   else {
-    const newPuppies = this.state.unselectedPuppies.filter(item => item.breed !== breed);
+    const newPuppies = this.state.unselectedPuppies.filter(item => item.id !== id);
     this.setState({
       message: "Correct!",
       curScore: this.state.curScore + 1,
@@ -50,6 +51,7 @@ selectPuppy = breed => {
   this.shuffleArray(puppies);
 }
 // render the images and cards
+
 render() {
     return (
     <Wrapper>
@@ -59,10 +61,10 @@ render() {
         topScore={this.state.topScore}
       />
     {
-      this.state.puppies.map(puppy => (
+      this.state.puppies.map(puppies => (
         <PuppyCard
-        breed={puppies.breed}
-      key={puppies.breed}
+        id={puppies.id}
+      key={puppies.id}
       image={puppies.image}
       />
     ))

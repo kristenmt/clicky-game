@@ -16,12 +16,19 @@ const PuppyCard = (props) => (
             {/* // } */}
         {/* ) */}
     {/* } */}
-<a onClick={() => props.selectPuppy(props.breed)}
+{/* <a onClick={() => props.selectPuppy(props.id)}
     className={props.curScore === 0 }
-    >
-            <img alt={props.breed} src={props.image} />
+    > */}
+            {/* <img alt={props.id} src={props.image} />
+            </a> */}
+
+<a>
+            <img alt={props.id} src={props.image} />
             </a>
+
+
         </div>
         </div>
 )
+
 export default PuppyCard;
