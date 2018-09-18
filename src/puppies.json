@@ -30,7 +30,7 @@
 },
 {
     "id": 6,
-     "image": "https://dog.ceo/api/img/husky/n02110185_5392.jpg",
+     "image": "https://images.dog.ceo/breeds/malamute/n02110063_13152.jpg",
      "clicked": false
 
 },
@@ -48,25 +48,25 @@
 },
 {
     "id": 9,
-     "image": "https://dog.ceo/api/img/terrier-bedlington/n02093647_655.jpg",
+     "image": "https://images.dog.ceo/breeds/redbone/n02090379_521.jpg",
      "clicked": false
 
 },
 {
     "id": 10,
-     "image": "https://dog.ceo/api/img/papillon/n02086910_9355.jpg",
+     "image": "https://images.dog.ceo/breeds/kuvasz/n02104029_4679.jpg",
      "clicked": false
 
 },
 {
     "id": 11,
-     "image": "https://dog.ceo/api/img/retriever-golden/n02099601_544.jpg",
+     "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_1743.jpg",
      "clicked": false
 
 },
 {
     "id": 12,
-     "image": "https://dog.ceo/api/img/corgi-cardigan/n02113186_10972.jpg",
+     "image": "https://images.dog.ceo/breeds/labrador/n02099712_209.jpg",
      "clicked": false
 }
 

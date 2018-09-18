@@ -1,8 +1,17 @@
 .gametitle {
-    background-size: 100%;
+    /* background-size: 100%; */
     width: 100%;
+    background-image: url(../../PawPrints.jpg);
     text-align: center;
     vertical-align: center;
-    background-color: darkcyan;
-    color: aliceblue;
+    /* background-color: darkcyan; */
+    color: #555;
+    /* padding: 10px; */
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+h1 {
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
