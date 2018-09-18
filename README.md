@@ -2,7 +2,13 @@
 
 <p>This is a memory click game using React. If you click the same pup card twice, you lose the game.</p>
 
-![App Image](/pupClickyOne.png)
+![App Image](/src/pupClickyOne.png)
+<br>
+
+![App Image](/src/pupClickyTwo.png)
+<br>
+
+![App Image](/src/pupClickyThree.png)
 <br>
 
 <h4>Technologies used:</h4>
